@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+        font-family: 'Poppins', sans-serif;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3.7rem;
+    margin-right: 3.7rem;
+}
+
+#title {
+    text-align: left;
+    color: slategrey;
+    font-weight: bold;
+}
+
+#button {
+    color: whitesmoke;
+    height: 38px;
+}
+
+.card-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    font-size: 12px;
+    width: 16rem;
+    padding-bottom: 18px;
+    margin: 15px;
+    border-radius: 6px;
+}
+
+.footer {
+    position: absolute;
+    padding-left: 10px;
+    bottom: 10px;
+    width: 91.4%;
+    height: 50px;
+    line-height: 50px;
+    background-color: slategrey;
+    border-radius: 6px;
+}
+
+.foot-text {
+    padding: 0px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.form-group {
+    margin: 20px;
+}
+
+.text-right {
+    align-self: flex-end;
+    padding: 20px;
+}

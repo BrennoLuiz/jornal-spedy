@@ -1,0 +1,3 @@
+Utilizaria o Node.js para o back-end, conectado à um banco de dados MySQL com MariaDB.
+Assim como um banco relacional para a inserção e exibição de dados, contendo uma tabela de 3 inputs para
+Título, Data e Descrição não podendo receber dados nulos.
